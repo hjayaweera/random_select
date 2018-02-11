@@ -54,14 +54,7 @@ m=r.select_rand(1)
 available_list.remove(m)
 f2.append_file(m);
 f3=File("input_file.txt","w");
-list1 = [1, 2, 3]
-str1 = ''.join(str(e) for e in list1)
-
 f3.write_file('\n'.join(available_list));
-
 print(m)
-#f2=File("output.txt","a")
-#f2.append_file(f1.read_file())
-#f3=File("output.txt","r")
 
 
